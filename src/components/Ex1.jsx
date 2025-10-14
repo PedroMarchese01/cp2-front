@@ -6,7 +6,7 @@ export default function Ex1() {
   return (
     <div className="my-8">
         <h1 className="text-2xl font-bold mb-4">Ex1 - Botão Estilizado</h1>
-      {/* Resolva aqui */}
+        <button className="bg-blue-500 text-white p-2 rounded-full hover:bg-blue-950 text-center flex"> my button</button>
     </div>
   );
 }

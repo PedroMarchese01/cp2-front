@@ -6,7 +6,11 @@ export default function Ex2() {
   return (
     <div className="my-8">
         <h1 className="text-2xl font-bold mb-4">Ex2 - Flexbox Básico</h1>
-      {/* Resolva aqui */}
+        <div className="flex justify-center w-full">
+          <div className="bg-blue-500  w-[50px] h-[50px]"></div>
+          <div className="bg-purple-500  w-[50px] h-[50px]"></div>
+          <div className="bg-red-500  w-[50px] h-[50px]"></div>
+        </div>
     </div>
   );
 }
